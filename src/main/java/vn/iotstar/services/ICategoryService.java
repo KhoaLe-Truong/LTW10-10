@@ -15,8 +15,13 @@ Category findById(int cateid);
 
 void delete(int cateid) throws Exception;
 
-void update(Category category);
+void update(vn.iotstar.entity.Category category);
+
+void insert(vn.iotstar.entity.Category category);
 
 void insert(Category category);
+
+void update(Category category);
+
 
 }

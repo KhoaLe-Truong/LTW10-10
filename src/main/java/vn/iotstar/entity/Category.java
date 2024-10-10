@@ -19,12 +19,12 @@ public class Category implements Serializable {
 	 @Id
 	 @GeneratedValue(strategy = GenerationType.IDENTITY)
 	 @Column(name="CategoryId")
-	 private int categoryId;
+	 private int categoryid;
 	 
 	 @Column(name="Categoryname", columnDefinition = "nvarchar(200) NOT NULL")
 	 private String categoryname;
 	 
-	 @Column(name="Images", columnDefinition = "nvarchar(500) NULL")
+	 @Column(name="Images", columnDefinition = "nvarchar(MAX) NULL")
 	 private String images;
 	 
 	 @Column(name="Status")
@@ -38,11 +38,11 @@ public class Category implements Serializable {
 	}
 
 	public int getCategoryId() {
-		return categoryId;
+		return categoryid;
 	}
 
 	public void setCategoryId(int categoryId) {
-		this.categoryId = categoryId;
+		this.categoryid = categoryId;
 	}
 
 	public String getCategoryname() {

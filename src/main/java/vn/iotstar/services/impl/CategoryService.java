@@ -49,4 +49,18 @@ public class CategoryService implements ICategoryService {
 		 cateDao.insert(category);		
 	}
 
+	@Override
+	public void update(vn.iotstar.entity.Category category) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void insert(vn.iotstar.entity.Category category) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
 }

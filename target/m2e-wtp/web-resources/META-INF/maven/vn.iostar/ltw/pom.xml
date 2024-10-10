@@ -74,6 +74,11 @@
 			<artifactId>ltweb</artifactId>
 			<version>1.0</version>
 		</dependency>
+		<dependency>
+			<groupId>io.star</groupId>
+			<artifactId>lemin</artifactId>
+			<version>1.0</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<pluginManagement>
